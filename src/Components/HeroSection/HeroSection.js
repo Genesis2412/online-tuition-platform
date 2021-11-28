@@ -6,13 +6,13 @@ class HeroSection extends Component {
   render() {
     return (
       <div className="slider">
-        <video
+        {/* <video
           src="/Assets/Videos/blockchain.mp4"
           type="video/mp4"
           autoPlay
           muted
           loop
-        />
+        /> */}
         <h1>
           <Typed
             className="typed-text"

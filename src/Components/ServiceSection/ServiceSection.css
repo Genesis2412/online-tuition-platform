@@ -1,0 +1,36 @@
+.services {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url("https://www.iberdrola.com/wcorp/gc/prod/en_US/comunicacion/deep_learning_mult_1_res/Deep_Learning_746x419.jpg");
+  background-size: cover;
+  color: #efefef !important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  margin-top: 40px;
+  clip-path: ellipse(147% 100% at 75.22% 100%);
+}
+
+.services h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-underline-position: under;
+  padding-bottom: 30px;
+}
+
+.services h6 {
+  text-align: center;
+  font-size: 16px;
+}
+
+.services p {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #ccc;
+}
+
+#icon {
+  font-size: 40px;
+  margin: 20px auto;
+  padding: 20px;
+  height: 80px;
+  width: 80px;
+}
