@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Typed from "react-typed";
 import "./HeroSection.css";
 
 class HeroSection extends Component {
@@ -12,8 +13,17 @@ class HeroSection extends Component {
           muted
           loop
         />
-        <h1>LEARNING AWAITS</h1>
-        <p>What are you waiting for?</p>
+        <h1>
+          <Typed
+            className="typed-text"
+            strings={["LEARNING AWAITS", "FOR GRADE 7 TO 13"]}
+            typeSpeed={50}
+            backSpeed={50}
+            loop
+          />
+        </h1>
+
+        <p>Tutors and students what are you waiting for?</p>
         <div className="slider-links">
           <a href="#" className="get-started">
             Get Started

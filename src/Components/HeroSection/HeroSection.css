@@ -54,39 +54,40 @@
 }
 
 .get-started {
+  text-align: center;
   color: #fff;
+  text-decoration: none;
 }
 
 .get-started:hover {
-  background-color: #fff;
-  color: #000;
-  transition: all 0.3s ease-in-out;
+  border-color: rgb(239, 255, 19);
+  color: rgb(239, 255, 19);
 }
 
 .view-demo {
+  text-align: center;
   background-color: #fff;
   color: #000;
 }
 
 .view-demo:hover {
-  background-color: transparent;
-  color: #fff;
-  transition: all 0.3s ease-in-out;
+  color: rgb(82, 0, 129);
 }
 
 @media screen and (max-width: 960px) {
   .slider > h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .slider > p {
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .slider-links > a {
-    font-size: 18px;
+    font-size: 15px;
     display: block;
+    padding: 10px 30px 10px 30px;
   }
 }
