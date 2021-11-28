@@ -22,6 +22,6 @@ export const NavLinks = [
   {
     title: "Sign in",
     url: "#",
-    cName: "nav-links",
+    cName: "nav-sign-link",
   },
 ];

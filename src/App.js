@@ -1,12 +1,13 @@
 import React from "react";
-import NavHome from "./Components/NavHome/NavHome";
-import HeroSection from "./Components/HeroSection/HeroSection";
+import "./Bootstrap/bootstrap.min.css";
 import "./App.css";
+import Header from "./Components/Header/Header";
+import HeroSection from "./Components/HeroSection/HeroSection";
 
 function App() {
   return (
     <>
-      <NavHome />
+      <Header />
       <HeroSection />
     </>
   );
